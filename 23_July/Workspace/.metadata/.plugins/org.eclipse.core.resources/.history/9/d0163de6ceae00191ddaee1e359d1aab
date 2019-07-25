@@ -1,0 +1,9 @@
+
+public class WrittenItem extends Item{
+	protected String author = new String();
+	
+	public WrittenItem(){
+		
+	}
+	
+}

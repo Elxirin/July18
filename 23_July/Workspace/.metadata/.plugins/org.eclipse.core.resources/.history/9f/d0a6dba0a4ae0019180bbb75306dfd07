@@ -1,0 +1,8 @@
+
+public interface Item {
+	
+	int uin=0,noc=0;
+	String title = new String();
+	
+	
+}

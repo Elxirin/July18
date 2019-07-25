@@ -1,0 +1,38 @@
+
+public abstract class Item {
+
+	private int uin,noc;
+	private String title = new String();
+	
+	Item(int uin, String title, int noc){
+		this.uin=uin;
+		this.noc=noc;
+		this.title=title;
+	}
+	
+	protected int getUin() {
+		return uin;
+	}
+
+	protected void setUin(int uin) {
+		this.uin = uin;
+	}
+
+	protected int getNoc() {
+		return noc;
+	}
+
+	protected void setNoc(int noc) {
+		this.noc = noc;
+	}
+
+	protected String getTitle() {
+		return title;
+	}
+
+	protected void setTitle(String title) {
+		this.title = title;
+	}
+	
+	
+}
